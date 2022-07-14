@@ -1,0 +1,68 @@
+.slick-track {
+    display: flex;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+
+/* Конкретный слайдер */
+.slider {
+    position: relative;
+    padding: 0px 3.4rem;
+    margin: 15rem 10rem;
+    
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin: -3.5rem 0 0 0;
+    z-index: 10;
+    border: none;
+    font-size: 0;
+    width: 3rem;
+    height: 3.4rem;
+    cursor: pointer;
+}
+
+.slick-prev {
+    left: 0;
+    background: url('../img/back.svg') 0 0 / 100% no-repeat;
+}
+
+.slick-next {
+    right: 0;
+    background: url('../img/next.svg') 0 0 / 100% no-repeat;
+}
+
+.slider .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider .slick-dots li {
+    list-style: none;
+    margin: 0 .4rem;
+}
+
+.slider .slick-dots button {
+    font-size: 0;
+    width: .7rem;
+    height: .7rem;
+    border: 0;
+    background-color: $black;
+    border-radius: 60%;
+    cursor: pointer;
+}
+
+.slider .slick-dots li.slick-active button {
+    background-color: $pink;
+}
+
+.slider__item {
+    text-align: center;
+}
+

@@ -1,0 +1,35 @@
+.social {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 2.8rem;
+}
+
+.social__link {
+    &:hover .social__icon {
+        fill: $pink;
+    }
+}
+
+.social__icon {
+    margin-bottom: .8rem;
+    width: 2rem;
+    height: 2rem;
+
+    display: block;
+
+    fill: $smoke;
+
+    transition: fill .1s linear;
+
+    &--yt {
+        width: 1.9rem;
+        height: 1.9rem;
+    }
+
+    &--inst {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+}

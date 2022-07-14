@@ -1,0 +1,68 @@
+@import "vars";
+
+
+/* Default styles */
+html {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+
+    background-color: $smoke;
+
+    font-family: 'Montserrat' , sans-serif;
+    color: $black;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+/* Bootstrap */
+@import
+"../../../node_modules/bootstrap/scss/functions";
+@import
+"../../../node_modules/bootstrap/scss/variables";
+@import
+"../../../node_modules/bootstrap/scss/mixins";
+@import
+"../../../node_modules/bootstrap/scss/transitions";
+@import
+"../../../node_modules/bootstrap/scss/grid";
+@import
+"../../../node_modules/bootstrap/scss/modal";
+@import
+"../../../node_modules/bootstrap/scss/nav";
+
+
+/* Blocks */
+@import "blocks/page.scss";
+@import "blocks/header.scss";
+@import "blocks/logo.scss";
+@import "blocks/nav.scss";
+@import "blocks/phone.scss";
+@import "blocks/content.scss";
+@import "blocks/intro.scss";
+@import "blocks/fon.scss";
+@import "blocks/btn.scss";
+@import "blocks/form.scss";
+@import "blocks/input.scss";
+@import "blocks/modal.scss";
+@import "blocks/text.scss";
+@import "blocks/banya.scss";
+@import "blocks/relax-zone.scss";
+@import "blocks/pool.scss";
+@import "blocks/prices.scss";
+@import "blocks/line.scss";
+@import "blocks/social.scss";
+@import "blocks/contacts.scss";
+@import "blocks/photos.scss";
+@import "blocks/slider.scss";
+@import "blocks/footer.scss";
+
